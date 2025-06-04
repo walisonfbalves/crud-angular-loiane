@@ -19,7 +19,7 @@ export class CoursesService {
       .pipe
       (
         first(),
-        delay(3000),
+        delay(0),
         tap(courses => console.log(courses))
       );
   }
